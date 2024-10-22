@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Aniversário</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo_birthday.png" alt="Meu Aniversário">
+            <p class="hero__text">
+                A contagem regressiva para o meu aniversário começou em<br> <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Local da Festa - João Pessoa, PB
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        Entrada gratuita
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        25/01/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirmar Presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--food">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Comidas</h2>
+                <p class="event__details__description">
+                    Uma seleção especial de pratos deliciosos para celebrar o meu aniversário. Venha saborear!
+                </p>
+            </div>
+            <img class="event__image" src="./images/food.png" alt="Comidas de Aniversário">
+        </div>
+    </section>
+    <section class="event event--music event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Música</h2>
+                <p class="event__details__description">
+                    A festa vai contar com uma playlist incrível para animar todos os convidados.
+                </p>
+            </div>
+            <img class="event__image" src="./images/music.png" alt="Música da Festa">
+        </div>
+    </section>
+    <section class="event event--decoration">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Decoração</h2>
+                <p class="event__details__description">
+                    Uma decoração única e criativa para deixar o ambiente ainda mais especial.
+                </p>
+            </div>
+            <img class="event__image" src="./images/decoration.png" alt="Decoração de Aniversário">
+        </div>
+    </section>
+    <section class="event event--surprise event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Surpresas</h2>
+                <p class="event__details__description">
+                    Prepare-se para algumas surpresas incríveis durante a festa. Você não vai querer perder!
+                </p>
+            </div>
+            <img class="event__image" src="./images/surprise.png" alt="Surpresas do Aniversário">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
